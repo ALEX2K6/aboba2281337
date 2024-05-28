@@ -1,0 +1,120 @@
+.jumbotron {
+  background-image: url(image\(2\).png);
+  background-size: cover;
+  color: white;
+  text-align: center;
+  padding: 100px 0;
+}
+.footer {
+  background-color: #343a40;
+  color: white;
+  padding: 20px 0;
+  text-align: center;
+}
+.logo {
+  z-index: 1000; 
+}
+.logo img {
+  align-self: center;
+  width: 100px; 
+  height: auto;
+}
+h1 {
+  font-style: inherit;
+}
+.container mt-5 {
+  padding: 10%;
+}
+body {
+  background-color: #343a40;
+}
+.container {
+  color: white;
+  padding-bottom: 5%;
+}
+.big-picture {
+  margin-top: 50px; 
+  padding-bottom: 5%;
+}
+.big-picture img {
+  max-width: 100%; 
+  height: auto; 
+  border: 2px solid #ccc; 
+  border-radius: 10px; 
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); 
+}
+.button {
+  padding-top: 5%;
+}
+.button {
+  padding-top: 5%;
+}
+.modal-content {
+  background-color: #343a40;
+  color: white;
+}
+.modal-header {
+  border-bottom: none;
+}
+.modal-title {
+  color: white;
+}
+.modal-body {
+  padding: 2rem;
+}
+.form-control {
+  background-color: #343a40;
+  border: none;
+  border-bottom: 1px solid white;
+  color: white;
+}
+.form-control:focus {
+  box-shadow: none;
+}
+.btn-primary {
+  background-color: #f05f40;
+  border: none;
+}
+#scrollToTop {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 100;
+}
+.brackets {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  margin-top: 20px;
+}
+
+.bracket {
+  width: 0;
+  height: 0;
+  border-top: 20px solid transparent;
+  border-bottom: 20px solid transparent;
+  border-left: 20px solid white;
+  opacity: 0;
+  transition: opacity 0.3s ease-in-out;
+}
+
+.bracket.show {
+  opacity: 1;
+}
+
+.bracket.left {
+  border-left-color: white;
+}
+
+.bracket.middle {
+  border-left-color: white;
+}
+
+.bracket.right {
+  border-left-color: transparent;
+  border-right: 20px solid white;
+}
+
+#seeMoreButton {
+  margin-top: 20px;
+}
